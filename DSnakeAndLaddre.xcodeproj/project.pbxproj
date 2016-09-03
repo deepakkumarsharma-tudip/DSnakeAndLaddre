@@ -12,6 +12,7 @@
 		AFFBC0001D7B09E7002CFBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFBBFFE1D7B09E7002CFBDD /* Main.storyboard */; };
 		AFFBC0021D7B09E7002CFBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFBC0011D7B09E7002CFBDD /* Assets.xcassets */; };
 		AFFBC0051D7B09E7002CFBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFBC0031D7B09E7002CFBDD /* LaunchScreen.storyboard */; };
+		AFFBC00E1D7B2D34002CFBDD /* DSSnakeAndLadderPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFBC00D1D7B2D34002CFBDD /* DSSnakeAndLadderPlayer.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AFFBC0011D7B09E7002CFBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFFBC0041D7B09E7002CFBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFFBC0061D7B09E7002CFBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFBC00D1D7B2D34002CFBDD /* DSSnakeAndLadderPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSSnakeAndLadderPlayer.swift; path = DSnakeAndLadder/DSSnakeAndLadderPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		AFFBBFF91D7B09E7002CFBDD /* DSnakeAndLaddre */ = {
 			isa = PBXGroup;
 			children = (
+				AFFBC00C1D7B2CDC002CFBDD /* DSnakeAndLadder */,
 				AFFBBFFA1D7B09E7002CFBDD /* AppDelegate.swift */,
 				AFFBBFFC1D7B09E7002CFBDD /* ViewController.swift */,
 				AFFBBFFE1D7B09E7002CFBDD /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				AFFBC0061D7B09E7002CFBDD /* Info.plist */,
 			);
 			path = DSnakeAndLaddre;
+			sourceTree = "<group>";
+		};
+		AFFBC00C1D7B2CDC002CFBDD /* DSnakeAndLadder */ = {
+			isa = PBXGroup;
+			children = (
+				AFFBC00D1D7B2D34002CFBDD /* DSSnakeAndLadderPlayer.swift */,
+			);
+			name = DSnakeAndLadder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFFBBFFD1D7B09E7002CFBDD /* ViewController.swift in Sources */,
+				AFFBC00E1D7B2D34002CFBDD /* DSSnakeAndLadderPlayer.swift in Sources */,
 				AFFBBFFB1D7B09E7002CFBDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
